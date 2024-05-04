@@ -157,29 +157,33 @@
 
           <div class="project-upload">
             <h2>Upload Project</h2>
+            <div class="forms-box">
+              <form action="/uploadproject">
 
-            <form action="/uploadproject">
-              <label for="Domain">Project Domain</label>
-              <select name="domains" id="domain" form="project">
-                <option value="cs">Computer Science</option>
-                <option value="ec">Electronics and Communication</option>
-                <option value="ee">Electrical and Electronics</option>
-                <option value="me">Mechanical</option>
-              </select>
+                <label for="Domain">Project Domain</label>
+                <select name="domains" id="domain" form="project">
+                  <option value="cs">Computer Science</option>
+                  <option value="ec">Electronics and Communication</option>
+                  <option value="ee">Electrical and Electronics</option>
+                  <option value="me">Mechanical</option>
+                  <option value="ce">Civil</option>
+                  <option value="rs">Robotics</option>
+                  <option value="cm">Chemical</option>
+                </select>
 
-              <label for="project_name">Project Name</label>
-              <input type="text">
+                <label for="project_name">Project Name</label>
+                <input type="text">
 
-              <label for="describtion">Project Describtion</label>
-              <input type="text">
+                <label for="describtion">Project Describtion</label>
+                <input type="text">
 
-              <label for="code">Project Code</label>
-              <input type="text">
+                <label for="code">Project Code</label>
+                <input type="text">
 
-              <label for="image">Upload Image</label>
-              <input type="file">
-            </form>
-
+                <label for="image">Upload Image</label>
+                <input type="file">
+              </form>
+            </div>
           </div>
 
         </div>
