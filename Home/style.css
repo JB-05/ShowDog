@@ -3,6 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: Inter, Poppins, sans-serif;
   background: rgb(18, 9, 70);
   background: -moz-linear-gradient(
@@ -29,6 +30,9 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#120946",endColorstr="#103774",GradientType=1);
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+
+  
 }
 
 nav {
@@ -36,55 +40,94 @@ nav {
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 0 20px;
+  padding: 3px 20px;
   background-color: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 nav h1 {
   font-size: 1.3rem;
   font-weight: 600;
 }
 
-nav a{
+nav a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #f5f5f5aa;
+  font-size: 0.9rem;
 }
 .nav_links {
-    margin-left: 17rem;
+  margin-left: 17rem;
 }
-.nav_links a{
-    padding-right: 4rem;
+.nav_links a {
+  padding-right: 4rem;
 }
 
-.nav_search{
-    border: 2px solid white;
-    padding: 3px 10px;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.25;
-    border-radius: 20px;
+.nav_search {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 3px 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: #61616130 2px 3px 7px;
+  opacity: 0.25;
 }
-.nav_search i{
-    color: black;
-    opacity: 1;
-    padding-right: 5px;
+.nav_search i {
+  color: black;
+  opacity: 100;
+  padding-right: 5px;
 }
-.nav_search input{
-    border: none;
-    color: white;
-    font-size: 1rem;
-    
-}
-textarea:focus, input:focus {
-  color: #000000;
+.nav_search input {
+  width: 150px;
   border: none;
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+  background-color: transparent;
+}
+.nav_search input::placeholder {
+  color: black;
+  opacity: 0.8;
+}
+nav button {
+  background-color: #6b89b7;
+  color: rgb(37, 37, 37);
+  border: none;
+  padding: 5px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: #00000023 2px 3px 7px;
+}
+.nav_links a:hover {
+  color: #676767c4;
+  transition: all 0.3s ease;
+  text-shadow: #b6b6b618 1px 3px 6px;
 }
 
-nav button{
-    background-color: white;
-    color: black;
-    border: none;
-    padding: 5px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 500;
+nav button:hover {
+  background-color: #07315a;
+  color: rgb(209, 209, 209);
+  transition: all 0.3s ease;
+}
+nav a {
+  text-shadow: #0000006f 2px 3px 7px;
+}
+.bar {
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.151);
+}
+
+.tile-boxes {
+  height: auto;
+  width: auto; 
+  background: rgba(17, 14, 14, 0.19);
+  border: 2px solid transparent;
+  border-radius: 53px;
+  box-shadow: #0000007f 15px 10px 10px;
+  color: white;
+
+}
+
+.tile-boxes a {
+  text-shadow: #0000006f 2px 3px 7px;
+  text-decoration: none;
+  color: white;
 }
