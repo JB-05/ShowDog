@@ -1,0 +1,22 @@
+body{
+    background-color: #3e3e3e;
+}
+
+.container{
+    width:28rem;
+    height: 14rem;
+    background-color: rgba(49, 139, 218, 0.973);
+    border-radius: 5rem;
+    box-shadow: #1d1c1c6c 30px 12px 7px;
+    padding: 30px 30px 30px 50px;
+    display: grid;
+    grid-template-columns: 55% auto;
+    column-gap: 10px;
+}
+
+.grid_items{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 3rem;
+}
+
