@@ -116,6 +116,11 @@ nav a {
 .container {
   height: 100vh;
   width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .col-2{
@@ -125,11 +130,13 @@ nav a {
 .profile-box {
   border: 2px solid rgba(255, 255, 255, 0.042);
   box-shadow: 5px 0.5px 5px 0.5px;
-  height: 220px !important;
+  height: 150px !important;
   width: 350px !important;
   background-color: rgba(255, 255, 255, 0.068);
   border-radius: 15px;
   display: flex;
+  padding: 20px;
+
 }
 .profile-box h2{
   color: white;
@@ -144,14 +151,20 @@ nav a {
 }
 
 .profile-box .profile-details {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 50% auto;
   color: white;
+  padding: 20px;
+  z-index: 1;
+  padding: 10px;
 }
 .profile-box .profile-icon img{
   border-radius: 50%;
 }
-
+.profile_elements{
+  font-size: 0.8rem;
+  gap: 10px;
+}
 
 .projects-sec h2{
  font-size: 25; 
@@ -171,10 +184,9 @@ nav a {
   display: flex;
   flex-direction: column;
 }
-
 .project-upload .forms-box{
-  border: 2px solid rgba(26, 61, 157, 0.447);
-  border-radius: 15px;
+  width: 20rem;
+  flex-direction: column;
 }
 .project-upload .forms-box input{
   width: 350px;
@@ -183,4 +195,57 @@ nav a {
   border-radius: 30px;
   border-style: none;
 }
+.project-upload .forms-box button{
+  width: 350px;
+  border: 0.5 solid  rgba(26, 61, 157, 0.447);
+  background-color:  rgba(26, 61, 157, 0.447);
+  border-radius: 30px;
+  border-style: none;
+  padding: 10px;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: #00000023 2px 3px 7px;
+}
 
+.project-upload .forms-box button:hover{
+  background-color: #07315a;
+  color: rgb(209, 209, 209);
+  transition: all 0.3s ease;
+}
+
+.project-upload .forms-box input::placeholder{
+  color: white;
+  opacity: 0.8;
+}
+.project-upload .forms-box label{
+  color: white;
+  font-size: 0.9rem;
+  padding: 5px;
+}
+.project-upload h2{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+#domain{
+  width: 350px;
+  border: 0.5 solid  rgba(26, 61, 157, 0.447);
+  background-color:  rgba(26, 61, 157, 0.447);
+  border-radius: 30px;
+  border-style: none;
+  color: white;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+
+#project-name{
+  width: 350px;
+  border: 0.5 solid  rgba(26, 61, 157, 0.447);
+  background-color:  rgba(26, 61, 157, 0.447);
+  border-radius: 30px;
+  border-style: none;
+  color: white;
+}

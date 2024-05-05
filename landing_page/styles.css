@@ -1,0 +1,93 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background: #0c062b;
+  /*background: linear-gradient(0deg, rgba(16,55,116,1) 0%, rgba(20,78,136,1) 50%, rgba(23,100,157,1) 75%, rgba(18,9,70,1) 100%);*/ /* Change the background color to light blue */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffedede3;
+  padding: 100px 0;
+  font-family: Poppins, "sans-serif";
+}
+
+.hero h1 {
+  color: #fffafa;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin-top: 50px;
+  padding-left: 80px;
+  text-shadow: #00000074 2px 2px 7px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% auto;
+  column-gap: 20%;
+  width: 80%;
+  height: 30vh;
+  margin-top: 7rem;
+  margin-left: 10rem;
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+
+.grid-item h2 {
+  -webkit-text-fill-color: #00000011;
+  -webkit-text-stroke-width: 2px;
+  font-size: 8vh;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.grid-item p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.7px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.grid-container button {
+  width: 35%;
+  border-radius: 30px 10px 30px 0;
+  margin-right: 10px;
+  box-shadow: #1212122e 4px 3px 7px;
+  font-size: 12.5px;
+  letter-spacing: 1.5px;
+}
+.hero p {
+  width: 100%;
+  font-size: 17px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  text-size-adjust: 100%;
+  letter-spacing: 0.5px;
+}
+
+.hero h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.hero.btn {
+  margin: 20px 10px;
+}
+.blog_container svg {
+  width: 40vw;
+  height: 70vh;
+  padding: 0 20px 50px 70px;
+  margin-right: 20px;
+  z-index: 1;
+}
