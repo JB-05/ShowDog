@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c1e3e;
+    color: #ffffff;
+}
+
+header {
+    background-color: #0c1e3e;
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    color: #4a90e2;
+}
+
+.search-icon, .profile-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #1f3a5f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+.project-card {
+    background-color: #1f3a5f;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.creator-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.creator-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #4a90e2;
+    border-radius: 50%;
+}
+
+.deploy-button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.project-images {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+}
+
+.project-images img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.project-description {
+    flex: 1;
+}
+
+.similar-projects, .technology-stack, .project-code {
+    background-color: #1f3a5f;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.technology-stack ul {
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+.project-code pre {
+    background-color: #0c1e3e;
+    border-radius: 5px;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+.vscode-button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}

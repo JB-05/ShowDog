@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abITY - SwiftSend Project</title>
+    <link rel="stylesheet" href="userprofile.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">abITY</div>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Explore</a></li>
+            </ul>
+            <div class="search-icon">🔍</div>
+            <div class="profile-icon"></div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="project-card">
+            <div class="project-header">
+                <div class="creator-info">
+                    <div class="creator-icon"></div>
+                    <div>
+                        <h2>kim sondra</h2>
+                        <p>Flutter developer • Bangalore</p>
+                    </div>
+                </div>
+                <button class="deploy-button">Deploy Now</button>
+            </div>
+        </section>
+        <section class="project-card">
+            <div class="project-content">
+                <div class="project-images">
+                    <img src="components/phones.jpg" alt="SwiftSend App Screenshot 1">
+                </div>
+                <div class="project-description">
+                    <h3>Description:</h3>
+                    <p>SwiftSend is a cutting-edge delivery application designed to streamline the delivery process for both businesses and consumers. In a fast-paced world where convenience is paramount, SwiftSend aims to provide a seamless experience that allows packages to be delivered quickly and reliably. Whether it's a small parcel or a large shipment, SwiftSend ensures that deliveries are made safely and securely.</p>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <section class="technology-stack">
+            <h3>Technology Stack:</h3>
+            <ul>
+                <li>Frontend: React Native</li>
+                <li>Backend: Node.js, Express.js</li>
+                <li>Database: MongoDB</li>
+                <li>Cloud Services: Amazon Web Services (for scalability and reliability)</li>
+                <li>Payment Gateway Integration: Stripe, PayPal</li>
+            </ul>
+        </section>
+        
+        <section class="project-code">
+            <h3>project code</h3>
+            <pre><code>
+import random
+
+# Generate a random number between 1 and 100
+secret_number = random.randint(1, 100)
+
+# Number of attempts allowed
+attempts = 5
+
+print("Welcome to the Guessing Game!")
+print("I'm thinking of a number between 1 and 100.")
+
+while True:
+    try:
+        guess = int(input("Your guess: "))
+        if guess == secret_number:
+            print(f"Congratulations! You've guessed the number in {attempts} attempts!")
+            break
+        elif guess < secret_number:
+            print("Too low! Try guessing higher.")
+        else:
+            print("Too high! Try guessing lower.")
+    except ValueError:
+        print("Please enter a valid number.")
+
+# Run the game
+guess_number()
+            </code></pre>
+            <button class="vscode-button">open in vs code</button>
+        </section>
+    </main>
+</body>
+</html>
